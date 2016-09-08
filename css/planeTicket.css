@@ -1,0 +1,865 @@
+/* ========== */
+/* = 机票-头部 = */
+/* ========== */
+.ctrip_head{
+	width: 1180px;
+	height: 59px;
+	/*background-color: crimson;*/
+	margin: 0 auto;
+	padding-right: 11px;
+}
+.ctrip_head .cr_hd_title{
+	width: 117px;
+	height: 59px;
+	background-position: 0 0;
+	text-indent: -9999px;
+}
+.ct_hd_help{
+	padding-top: 20px;
+	margin-left: 600px;
+}
+.ct_hd_help .hd_help_item{
+	height: 15px;
+	line-height: 15px;
+	font-size: 11px;
+	background: url(../img/head/head_line.png) no-repeat right;
+	padding-right: 22px;
+	position: relative;
+}
+.ct_hd_help .help_item_pic{
+	width: 19px;
+	height: 13px;
+	background-position: 0 -60px;
+}
+.ct_hd_help .help_item_des{
+	margin-left: 5px;
+	cursor: pointer;
+}
+.ct_hd_help .help_position_ico{
+	width: 7px;
+	height: 4px;
+	background-position: 0 -74px;
+	position: absolute;
+	left: 77px;
+	top: 6px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.ct_hd_help .hd_help_item2{
+	height: 15px;
+	line-height: 15px;
+	font-size: 11px;
+	background: url(../img/head/head_line.png) no-repeat right;
+	padding: 0 9px 0 10px;
+}
+.ct_hd_help .hd_help_item3{
+	height: 15px;
+	line-height: 15px;
+	font-size: 11px;
+	padding-left: 10px;
+	position: relative;
+}
+.hd_help_item3 .inland_phone{
+	color: #0000FF;
+}
+.hd_help_item3 .help_position_ico{
+	width: 7px;
+	height: 4px;
+	background-position: -8px -74px;
+	position: absolute;
+	left: 114px;
+	top: 6px;
+	cursor: pointer;
+}
+.ctrip_head .hd_phonesChe{
+	width: 148px;
+	height: 38px;
+	padding-top: 11px;
+	position: relative;
+}
+.hd_phonesChe .hd_phonesChe_img{
+	width: 136px;
+	height: 36px;
+	background-position: 0 -79px;
+}
+.hd_phonesChe .phonesChe_icon{
+	width: 10px;
+	height: 5px;
+	background-position: -16px -74px;
+	position: absolute;
+	right: 0;
+	bottom: 4px;
+	cursor: pointer;
+	overflow: hidden;
+}
+/* ========== */
+/* = 机票-导航模块 = */
+/* ========== */
+.ctrip_nav{
+	height:40px;
+	background-color: #2577e3;
+}
+.nav_box{
+	width: 1182px;
+	height:40px;
+	margin: 0 auto;
+	/*background-color: #5F9EA0;*/
+	padding-right: 9px;
+}
+.nav_box .nav_item{
+	font-size: 15px;
+	color: #FFFFFF;
+	line-height: 40px;
+	padding: 0 9px 0 10px;
+	background: url(../img/nav/nav_line.png) no-repeat right;
+	position: relative;
+}
+.nav_box .item_topLine{
+	width: 53px;
+	height: 3px;
+	background: url(../img/nav/nav_topLine.png) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.nav_box .nav_item_hotel{
+	font-size: 15px;
+	color: #FFFFFF;
+	line-height: 40px;
+	padding: 0 15px 0 9px;
+	position: relative;
+	cursor: pointer;
+}
+.nav_box .nav_item_hotels{
+	width: 43px;
+	height: 40px;
+	font-size: 15px;
+	color: #0066cc;
+	line-height: 40px;
+	background-color: #FFFFFF;
+	/*padding: 0 15px 0 9px;*/
+	position: relative;
+	cursor: pointer;
+	padding-left: 10px;
+}
+.nav_line{
+	background: url(../img/nav/nav_line.png) no-repeat right;
+}
+.nav_box .item_icon{
+	width: 7px;
+	height: 4px;
+	background-position: -27px -74px;
+	position: absolute;
+	top: 18px;
+	right: 5px;
+	overflow: hidden;
+}
+.nav_box .item_iconl{
+	width: 7px;
+	height: 4px;
+	background-position: 0 -479px;
+	position: absolute;
+	top: 18px;
+	right: 5px;
+	overflow: hidden;
+}
+.nav_box .userinfo{
+	width: 155px;
+	height: 35px;
+	background-color: #ff9913;
+	padding-left: 5px;
+	padding-top: 5px;
+	position: relative;
+}
+.nav_box .user_pic{
+	width: 21px;
+	height: 20px;
+	background-position: 0 -145px;
+	text-indent: -9999px;
+}
+.nav_box .user_part{
+	margin-left: 7px;
+	font-size: 11px;
+}
+.user_login .login_btn{
+	background: url(../img/nav/user_login_line.png) no-repeat right;
+	padding-right: 6px;
+}
+.userinfo a{
+	color: #FFFFFF;
+}
+.nav_box .myXiecheng{
+	margin-top: 3px;
+	font-size: 14px;
+}
+.nav_box .myXiecheng_img{
+	width: 7px;
+	height: 4px;
+	background-position: -35px -74px;
+	position: absolute;
+	right: 60px;
+	bottom: 8px;
+	overflow: hidden;
+}
+/* ========== */
+/* = 导航模块-子菜单 = */
+/* ========== */
+.hotel_type{
+	width: 1133px;
+	height: 36px;
+	border: 1px solid #B5B5B5;
+	border-top: none;
+	margin: 0 auto;
+	padding-left: 21px;
+	padding-top: 1px;
+	padding-right: 19px;
+}
+.hotel_type .type_inland{
+	font-size: 12px;
+	height: 36px;
+	line-height: 36px;
+	color: #0066CC;
+	cursor: pointer;
+	margin-right: 10px;
+	position: relative;
+}
+.hotel_type .black_text{
+	color: #333;
+}
+.hotel_type .temai_icon{
+	width: 24px;
+	height: 14px;
+	background-position: -67px -183px;
+	position: absolute;
+	left: 35px;
+	top: -1px;
+}
+.planeTicket_box{
+	width: 1180px;
+	margin: 0 auto;
+	margin-top: 16px;
+}
+.planeTicket_box .planeTicket_left{
+	width: 380px;
+}
+.planeTicket_box .planeTicket_right{
+	width: 780px;
+}
+/* ========== */
+/* = 机票出行表单 = */
+/* ========== */
+.planeTicket_left .planeLeft{
+	width: 370px;
+	height: 347px;
+	background-color: #2477e1;
+	border-radius: 3px;
+	padding: 1px 5px 10px;
+	
+}
+.planeLeft .airTicket_title{
+	width: 335px;
+	height: 44px;
+	line-height: 44px;
+	font-size: 18px;
+	padding-left: 35px;
+	color: #FFFFFF;
+	font-weight: bold;
+	position: relative;
+}
+.planeLeft .planeIcon{
+	width: 16px;
+	height: 16px;
+	background-position: -77px -60px;
+	position: absolute;
+	left: 8px;
+	bottom: 14px;
+}
+.planeLeft .plane_form{
+	padding-top: 10px;
+	background-color: #FFFFFF;
+	position: relative;
+	padding-bottom: 10px;
+}
+.planeLeft .plane_form_item{
+	height: 34px;
+	line-height: 34px;
+	font-size: 12px;
+	color: #333333;
+}
+.planeLeft .formPlane_lab{
+	width: 90px;
+	height: 30px;
+	text-align: right;
+	margin-right: 10px;
+}
+.planeLeft .input_text{
+	width: 228px;
+	height: 28px;
+}
+.planeLeft .planeform_Icon{
+	width: 15px;
+	height: 45px;
+	background-position: 0 -631px;
+	position: absolute;
+	right: 18px;
+	top: 65px;
+	cursor: pointer;
+}
+.planeLeft .highAgree{
+	color: #0066CC;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.plane_form_item dd{
+	width: 330px;
+	position: relative;
+}
+.planeLeft .highAgree_icon{
+	width: 9px;
+	height: 5px;
+	background-position: -8px -479px;
+	position: absolute;
+	left: 160px;
+	top: 13px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.planeLeft .submit_btn{
+	width: 118px;
+	height: 32px;
+	background-color: #ffb000;
+	border: 1px solid #e77c00;
+	border-radius: 3px;
+	color: #FFFFFF;
+}
+/* ========== */
+/* = 公务员购票模块 = */
+/* ========== */
+.planeTicket_left .plane_offic{
+	width: 380px;
+	height: 75px;
+	margin-top: 15px;
+}
+/* ========== */
+/* = 看图找特价机票模块 = */
+/* ========== */
+.planeTicket_left .plane_tejia{
+	width: 380px;
+	height: 69px;
+	margin-top: 5px;
+}
+/* ========== */
+/* = 机票工具箱模块 = */
+/* ========== */
+.planeTicket_left .toolkit{
+	width: 380px;
+	margin-top: 2px;
+}
+.toolkit .toolkit_title{
+	width: 380px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 17px;
+}
+.toolkit .toolkit_item{
+	width: 380px;
+	height: 93px;
+}
+.toolkit .toolkit_clock{
+	width: 93px;
+	height: 93px;
+	background-color: #e0f0ff;
+	text-align: center;
+	cursor: pointer;
+}
+.toolkit .clock_pic{
+	width: 93px;
+	height: 42px;
+	margin-top: 15px;
+}
+.toolkit .clock_text{
+	width: 92px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	color: #0066CC;
+}
+.toolkit .toolkit_form{
+	width: 370px;
+	height: 93px;
+	background-color: #e0f0ff;
+	margin-top: 3px;
+	padding-left: 10px;
+}
+.toolkit .toolkit_form_tag{
+	height: 38px;
+	line-height: 38px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0066CC;
+}
+.toolkit .change_input{
+	width: 291px;
+	height: 24px;
+	border: 1px solid #0066CC;
+	border-bottom-left-radius: 12px;
+	border-top-left-radius: 12px;
+}
+.toolkit .toolkit_btn{
+	width: 54px;
+	height: 26px;
+	background-color: #4395e9;
+	border: 1px solid #0066CC;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.toolkit .toolkit_find{
+	font-size: 12px;
+	line-height: 24px;
+}
+/* ========== */
+/* = 为什么选择携程 = */
+/* ========== */
+.planeTicket_left .whyCtrip{
+	width: 380px;
+	margin-top: 11px;
+}
+.whyCtrip .whyctrip_title{
+	height: 46px;
+	line-height: 46px;
+	color: #333333;
+	font: weight 18px;
+}
+.whyCtrip .whyctrip_pic{
+	width: 378px;
+	height: 143px;
+	border: 1px solid #bfe1ff;
+	border-radius: 3px;
+	margin-top: 11px;
+}
+/* ========== */
+/* = 服务公告模块 = */
+/* ========== */
+.planeTicket_left .public_notice{
+	width: 380px;
+	margin-top: 9px;
+	padding-bottom: 17px;
+}
+.public_notice .notice_tag{
+	height: 52px;
+	line-height: 52px;
+	font-weight: bold;
+}
+.public_notice .notice_item{
+	height: 22px;
+	font-size: 12px;
+	line-height: 22px;
+}
+.public_notice .notice_dotted{
+	vertical-align: 4px;
+}
+.notice_item a{
+	color: #999999;
+}
+/*.notice_item a:hover{
+	text-decoration: underline;
+}*/
+.public_notice .more_notice{
+	color: #0053aa;
+	padding-left: 5px;
+}
+/* ========== */
+/* = 机票-Banner = */
+/* ========== */
+.planeTicket_right .dog_banner{
+	width: 780px;
+	height: 235px;
+	position: relative;
+}
+.planeTicket_right .dog_change{
+	width: 184px;
+	height: 15px;
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+}
+.planeTicket_right .point{
+	width: 15px;
+	height: 15px;
+	background-position: 0 -484px;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 8px;
+	overflow: hidden;
+}
+.planeTicket_right .current_point{
+	width: 15px;
+	height: 15px;
+	background-position: -16px -484px;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 8px;
+	overflow: hidden;
+}
+.planeTicket_right .flight_title{
+	height: 37px;
+	line-height: 37px;
+	font-size: 17px;
+	color: #3333;
+	border-bottom: 1px solid #999999;
+}
+.planeTicket_right .flight_main{
+	margin-top: 8px;
+}
+.planeTicket_right .flight_item{
+	width: 181px;
+	margin-left: 55px;
+}
+.planeTicket_right .flightItem_pic{
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+}
+.flightItem_pic a{
+	color: #0066cc;
+	font-weight: bold;
+}
+.planeTicket_right .flight_introduce{
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+}
+.flight_introduce .flight_date{
+	color: #a3a3a3;
+}
+.flight_introduce a{
+	color: #0066cc;
+}
+.flight_introduce .flight_price{
+	color: #bb0000;
+	font-family: tahoma;
+	margin-left: 51px;
+	font-weight: bold;
+}
+/* ========== */
+/* = 航空公司特惠专区 = */
+/* ========== */
+.air_flight{
+	position: relative;
+}
+.air_flight .flight_left{
+	width: 17px;
+	height: 28px;
+	background-position: 0 -677px;
+	position: absolute;
+	left: 0;
+	bottom: 13px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.air_flight .flight_right{
+	width: 17px;
+	height: 28px;
+	background-position: -18px -677px;
+	position: absolute;
+	right: 0;
+	bottom: 13px;
+	cursor: pointer;
+	overflow: hidden;
+}
+/* ========== */
+/* = 猜你喜欢 = */
+/* ========== */
+.planeTicket_right .guessLike{
+	width: 780px;
+	margin-top: 5px;
+}
+.planeTicket_right .guess_nav{
+	width: 770px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	border-bottom: 3px solid #0066CC;
+}
+.planeTicket_right .nav_like{
+	color: #0066CC;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 28px;
+}
+.planeTicket_right .nav_menology{
+	color: #333333;
+	font-weight: bold;
+	cursor: pointer;
+}
+.planeTicket_right .ticketIntroduce{
+	width: 772px;
+	background-color: #f1f1f1;
+	margin-top: 10px;
+	padding: 8px 0 8px 8px;
+}
+.planeTicket_right .about_city{
+	height: 195px;
+}
+.planeTicket_right .aboutCity_item{
+	width: 190px;
+	height: 195px;
+	background: url(../img/airTicket/cityItem_bg.png) repeat-y;
+	cursor: pointer;
+}
+.planeTicket_right .cityItem_img{
+	width: 190px;
+	height: 100px;
+	position: relative;
+}
+.planeTicket_right .cityItem_beijing{
+	width: 38px;
+	height: 25px;
+	position: absolute;
+	left: 10px;
+	top: 0;
+}
+.planeTicket_right .cityItem_beijingBg{
+	width: 38px;
+	height: 25px;
+	background-color: #808695;
+	position: absolute;
+	opacity: 0.7;
+}
+.planeTicket_right .cityItem_beijingtext{
+	width: 38px;
+	height: 25px;
+	line-height: 25px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	position: absolute;
+	text-align: center;
+	cursor: pointer;
+}
+.planeTicket_right .cityItem_describe{
+	width: 190px;
+	height: 81px;
+	margin-top: 6px;
+	padding-top: 8px;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #d7d7d7;
+}
+.cityItem_describe .whereCity{
+	height: 20px;
+	line-height: 20px;
+	color:#333333;
+	padding-left: 6px;
+	font-weight: 700;
+}
+.cityItem_describe .whereCity_date{
+	height: 20px;
+	line-height: 20px;
+	color: #999999;
+	margin-top: 4px;
+	padding-left: 8px;
+}
+.cityItem_describe .whereCity_price{
+	height: 19px;
+	line-height: 19px;
+	text-align: right;
+	padding-right: 13px;
+	font: bold 15px tahoma;
+	color: #c10000;
+	position: relative;
+}
+.cityItem_describe .whereCity_icon{
+	width: 39px;
+	height: 19px;
+	background-position: 0 -744px;
+	position: absolute;
+	left: 80px;
+	top: 0;
+}
+.planeTicket_right .fligntItem_describe{
+	width: 763px;
+	height: 89px;
+	margin-top: 5px;
+}
+.fligntItem_describe .cityItem_describe{
+	height: 80px;
+	margin-top: 0;
+	cursor: pointer;
+}
+.planeTicket_right .hotItem_describe{
+	width: 763px;
+	height: 113px;
+	margin-top: 5px;
+}
+.hotItem_describe .cityItem_describe{
+	height: 80px;
+	padding-top: 33px;
+	position: relative;
+	margin-top: 0;
+	cursor: pointer;
+}
+.planeTicket_right .hotItemdes_icon{
+	width: 46px;
+	height: 18px;
+	background-position: 0 -706px;
+	position: absolute;
+	left: 0;
+	top: 8px;
+}
+/* ========== */
+/* = 机票抢购 = */
+/* ========== */
+.planeTicket_right .link_port{
+	width: 780px;
+	height: 266px;
+	position: relative;
+	margin-top: 20px;
+}
+.planeTicket_right .link_left{
+	width: 17px;
+	height: 28px;
+	background-position: -36px -677px;
+	position: absolute;
+	left: 9px;
+	top: 119px;
+	cursor: pointer;
+}
+.planeTicket_right .link_right{
+	width: 17px;
+	height: 28px;
+	background-position: -54px -677px;
+	position: absolute;
+	right: 9px;
+	top: 119px;
+	cursor: pointer;
+}
+/* ========== */
+/* = 机票查询、预订 = */
+/* ========== */
+.all_link{
+	width: 1154px;
+	height: 176px;
+	border: 1px solid #dedede;
+	margin: 0 auto;
+	padding: 9px 14px 15px 10px;
+	font-size: 12px;
+}
+.all_link p{
+	height: 26px;
+	line-height: 26px;
+	color: #999999;
+	margin-bottom: 4px;
+}
+.allLink_item{
+	height: 36px;
+}
+.allLink_item dt{
+	width: 64px;
+	height: 33px;
+	padding-top: 3px;
+}
+.allLink_item dd{
+	width: 1092px;
+	height: 36px;
+}
+.allLink_item a{
+	height: 18px;
+	line-height: 18px;
+	margin-right: 5px;
+}
+.all_link a{
+	color: #999999;
+}
+.all_link a:hover{
+	text-decoration: underline;
+}
+.allLink_items{
+	height: 28px;
+	line-height: 28px;
+}
+.allLink_items dt{
+	width: 75px;
+	height: 28px;
+}
+.allLink_itemc{
+	height: 28px;
+	line-height: 28px;
+}
+.allLink_itemc dt{
+	width: 64px;
+	height: 28px;
+}
+.allLink_iteml{
+	height: 18px;
+	line-height: 18px;
+}
+.allLink_iteml dt{
+	width: 64px;
+	height: 18px;
+}
+.allLink_iteml a{
+	margin-right: 52px;
+}
+/* ========== */
+/* = 机票-底部 = */
+/* ========== */
+.hotelFoot{
+	width: 1180px;
+	margin: 0 auto;
+	margin-top: 45px;
+	font-size: 12px;
+}
+.hotelFoot .hotelfoot_part{
+	width: 940px;
+	height: 18px;
+	margin: 0 auto;
+}
+.hotelFoot .hotelfoot_parts{
+	width: 920px;
+	height: 18px;
+	margin: 0 auto;
+}
+.hotelFoot .hotel_fitem{
+	background: url(../img/hotel_index/hotelFoot_line.png) no-repeat right;
+	padding-right: 5px;
+	margin-right: 4px;
+}
+.hotelFoot a{
+	color: #4c4c4c;
+}
+.hotelFoot a:hover{
+	text-decoration: underline;
+}
+.hotelFoot .bureau{
+	width: 845px;
+	height: 34px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 43px;
+}
+.hotelFoot .bureaust{
+	height: 32px;
+	border: 1px solid #999999;
+	margin-right: 10px;
+}
+.ml30{
+	margin-left: 30px;
+}
+.colorTogray{
+	color: #cccccc;
+}
+.mt{
+	margin-bottom: 8px;
+}
+.mr2{
+	margin-right: 2px;
+}
+.mr3{
+	margin-right: 3px;
+}
+.mr1{
+	margin-right: 1px;
+}
